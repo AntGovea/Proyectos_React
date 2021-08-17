@@ -1,14 +1,30 @@
+import { ConexionApiGift } from "./conexionApi/ConexionApiGift";
 
-import './App.css';
-<script  type="text/javascript" src="./conexion-api/conexion.js"></script>
 
 function App() {
 
+
+  const persona=   {
+    nombre:'Antonio',
+    apellido:'Govea',
+    edad:23, 
+  }
+
+
+  //funcion sin return
+  const handleClick=()=>({ 
+     saludo :  'devolviendo sin return :D',
+     saludos :  'devolviendo sin return :D',
+  });
+
+// console.log(handleClick());
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        
-         </header>
+     {/* <h1>Haciendo Pruebas carnal :D</h1> */}
+     {/* <button onClick={handleClick}>Click</button> */}
+     <ConexionApiGift/>
     </div>
   );
 }
