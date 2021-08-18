@@ -6,12 +6,12 @@ import { AppRouter } from "./router/AppRouter";
 const CalendarApp = (props) => {
   return (
     <>
-      <h1>CalendarApp</h1>
+    
       <AppRouter />
     </>
   );
 };
 
-CalendarApp.propTypes = {};
 
+CalendarApp.propTypes = {};
 export default CalendarApp;
