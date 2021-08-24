@@ -46,7 +46,11 @@ export const CalendarModal = () => {
   };
 
   //metodo para cerrar el modal
-  const closeModal = () => {};
+  const closeModal = () => {
+   //Cerrar el modal
+
+    
+  };
 
 //asignacion de vvalor de fecha de inicio
   const handleStartDatechange = (e) => {
@@ -85,6 +89,11 @@ export const CalendarModal = () => {
                 console.log('valido')
                 return setTitleValid(true);
             }
+
+            //TODO grabar datos
+            //Cerra el Modal
+            closeModal();
+
 }
 
   return (

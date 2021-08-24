@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { Navbar } from "../ui/Navbar";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";
@@ -87,6 +86,6 @@ const CalendarScreen = (props) => {
   );
 };
 
-CalendarScreen.propTypes = {};
+
 
 export default CalendarScreen;
